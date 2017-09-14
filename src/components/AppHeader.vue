@@ -7,7 +7,6 @@
             <li><a :href="instagram" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
             <li><a :href="github" class="icon fa-github"><span class="label">Github</span></a></li>
             <li><a :href="email" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         </ul>
     </header>
 </template>
