@@ -5,7 +5,6 @@
         <ul class="icons">
             <li><a :href="twitter" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
             <li><a :href="instagram" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a :href="github" class="icon fa-github"><span class="label">Github</span></a></li>
             <li><a :href="email" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
         </ul>
     </header>
@@ -22,7 +21,6 @@ export default {
             this.text = obj.metafield.tagline.value;
             this.twitter = obj.metafield.twitter.value;
             this.instagram = obj.metafield.instagram.value;
-            this.github = obj.metafield.github.value;
             this.email = 'mailto:' + obj.metafield.email.value;
         });
     },
