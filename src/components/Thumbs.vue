@@ -21,6 +21,7 @@ export default {
     name: 'thumbs',
     created() {
         Cosmic.getObjectType({ bucket }, { type_slug: 'photos' }, (err, res) => {
+          debugger;
             this.items = res.objects.all;
             EventBus.$emit('loaded', this.items[0]);
         });
